@@ -1,0 +1,508 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '—save-dev',
+1 verbose cli   'babel',
+1 verbose cli   'babel-core',
+1 verbose cli   'babel-loader',
+1 verbose cli   'babel-preset-es2015',
+1 verbose cli   'babel-preset-react',
+1 verbose cli   'babel-preset-stage-0',
+1 verbose cli   'immutable',
+1 verbose cli   'react',
+1 verbose cli   'react-redux',
+1 verbose cli   'redux',
+1 verbose cli   'webpack',
+1 verbose cli   'webpack-dev-server',
+1 verbose cli   'css-loader',
+1 verbose cli   'file-loader',
+1 verbose cli   'react-dom',
+1 verbose cli   'react-hot-loader',
+1 verbose cli   'react-redux',
+1 verbose cli   'redux',
+1 verbose cli   'redux-thunk',
+1 verbose cli   'style-loader' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData —save-dev
+8 silly fetchPackageMetaData babel
+9 silly fetchPackageMetaData babel-core
+10 silly fetchPackageMetaData babel-loader
+11 silly fetchPackageMetaData babel-preset-es2015
+12 silly fetchPackageMetaData babel-preset-react
+13 silly fetchPackageMetaData babel-preset-stage-0
+14 silly fetchPackageMetaData immutable
+15 silly fetchPackageMetaData react
+16 silly fetchPackageMetaData react-redux
+17 silly fetchPackageMetaData redux
+18 silly fetchPackageMetaData webpack
+19 silly fetchPackageMetaData webpack-dev-server
+20 silly fetchPackageMetaData css-loader
+21 silly fetchPackageMetaData file-loader
+22 silly fetchPackageMetaData react-dom
+23 silly fetchPackageMetaData react-hot-loader
+24 silly fetchPackageMetaData react-redux
+25 silly fetchPackageMetaData redux
+26 silly fetchPackageMetaData redux-thunk
+27 silly fetchPackageMetaData style-loader
+28 silly fetchOtherPackageData —save-dev
+29 silly cache add args [ '—save-dev', null ]
+30 verbose cache add spec —save-dev
+31 silly fetchNamedPackageData babel
+32 silly mapToRegistry name babel
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/babel
+36 silly fetchNamedPackageData babel-core
+37 silly mapToRegistry name babel-core
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+41 silly fetchNamedPackageData babel-loader
+42 silly mapToRegistry name babel-loader
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+46 silly fetchNamedPackageData babel-preset-es2015
+47 silly mapToRegistry name babel-preset-es2015
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-es2015
+51 silly fetchNamedPackageData babel-preset-react
+52 silly mapToRegistry name babel-preset-react
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-react
+56 silly fetchNamedPackageData babel-preset-stage-0
+57 silly mapToRegistry name babel-preset-stage-0
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-stage-0
+61 silly fetchNamedPackageData immutable
+62 silly mapToRegistry name immutable
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/immutable
+66 silly fetchNamedPackageData react
+67 silly mapToRegistry name react
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/react
+71 silly fetchNamedPackageData react-redux
+72 silly mapToRegistry name react-redux
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/react-redux
+76 silly fetchNamedPackageData redux
+77 silly mapToRegistry name redux
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/redux
+81 silly fetchNamedPackageData webpack
+82 silly mapToRegistry name webpack
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/webpack
+86 silly fetchNamedPackageData webpack-dev-server
+87 silly mapToRegistry name webpack-dev-server
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/webpack-dev-server
+91 silly fetchNamedPackageData css-loader
+92 silly mapToRegistry name css-loader
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/css-loader
+96 silly fetchNamedPackageData file-loader
+97 silly mapToRegistry name file-loader
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/file-loader
+101 silly fetchNamedPackageData react-dom
+102 silly mapToRegistry name react-dom
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+106 silly fetchNamedPackageData react-hot-loader
+107 silly mapToRegistry name react-hot-loader
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/react-hot-loader
+111 silly fetchNamedPackageData react-redux
+112 silly mapToRegistry name react-redux
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry uri https://registry.npmjs.org/react-redux
+116 silly fetchNamedPackageData redux
+117 silly mapToRegistry name redux
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry uri https://registry.npmjs.org/redux
+121 silly fetchNamedPackageData redux-thunk
+122 silly mapToRegistry name redux-thunk
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry uri https://registry.npmjs.org/redux-thunk
+126 silly fetchNamedPackageData style-loader
+127 silly mapToRegistry name style-loader
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/style-loader
+131 silly cache add parsed spec Result {
+131 silly cache add   raw: '—save-dev',
+131 silly cache add   scope: null,
+131 silly cache add   name: null,
+131 silly cache add   rawSpec: '—save-dev',
+131 silly cache add   spec: '/home/samruda/github/react-trial/—save-dev',
+131 silly cache add   type: 'local' }
+132 verbose request uri https://registry.npmjs.org/babel
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 1:08:20 PM
+135 verbose request id e4eccef6f1191a14
+136 http request GET https://registry.npmjs.org/babel
+137 verbose request uri https://registry.npmjs.org/babel-preset-es2015
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 1:08:20 PM
+140 http request GET https://registry.npmjs.org/babel-preset-es2015
+141 verbose request uri https://registry.npmjs.org/babel-preset-react
+142 verbose request no auth needed
+143 info attempt registry request try #1 at 1:08:20 PM
+144 http request GET https://registry.npmjs.org/babel-preset-react
+145 verbose request uri https://registry.npmjs.org/babel-preset-stage-0
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 1:08:20 PM
+148 http request GET https://registry.npmjs.org/babel-preset-stage-0
+149 verbose request uri https://registry.npmjs.org/immutable
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 1:08:20 PM
+152 http request GET https://registry.npmjs.org/immutable
+153 verbose request uri https://registry.npmjs.org/react-redux
+154 verbose request no auth needed
+155 info attempt registry request try #1 at 1:08:20 PM
+156 http request GET https://registry.npmjs.org/react-redux
+157 verbose request uri https://registry.npmjs.org/redux
+158 verbose request no auth needed
+159 info attempt registry request try #1 at 1:08:20 PM
+160 http request GET https://registry.npmjs.org/redux
+161 verbose request uri https://registry.npmjs.org/react-dom
+162 verbose request no auth needed
+163 info attempt registry request try #1 at 1:08:20 PM
+164 http request GET https://registry.npmjs.org/react-dom
+165 verbose request uri https://registry.npmjs.org/react-hot-loader
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 1:08:20 PM
+168 http request GET https://registry.npmjs.org/react-hot-loader
+169 verbose request uri https://registry.npmjs.org/react-redux
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 1:08:20 PM
+172 http request GET https://registry.npmjs.org/react-redux
+173 verbose request uri https://registry.npmjs.org/redux
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 1:08:20 PM
+176 http request GET https://registry.npmjs.org/redux
+177 verbose request uri https://registry.npmjs.org/redux-thunk
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 1:08:20 PM
+180 http request GET https://registry.npmjs.org/redux-thunk
+181 error addLocal Could not install /home/samruda/github/react-trial/—save-dev
+182 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/home/samruda/github/react-trial/—save-dev'
+182 silly fetchPackageMetaData     at Error (native)
+182 silly fetchPackageMetaData  error for —save-dev { [Error: ENOENT: no such file or directory, open '/home/samruda/github/react-trial/—save-dev']
+182 silly fetchPackageMetaData   errno: -2,
+182 silly fetchPackageMetaData   code: 'ENOENT',
+182 silly fetchPackageMetaData   syscall: 'open',
+182 silly fetchPackageMetaData   path: '/home/samruda/github/react-trial/—save-dev' }
+183 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+184 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+185 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+186 verbose request uri https://registry.npmjs.org/babel-core
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 1:08:21 PM
+189 verbose etag "73H37V1KJRFSG40HM596IWLC"
+190 http request GET https://registry.npmjs.org/babel-core
+191 verbose request uri https://registry.npmjs.org/babel-loader
+192 verbose request no auth needed
+193 info attempt registry request try #1 at 1:08:21 PM
+194 verbose etag "5XEGORTU7O6S0B2KPZ6XEZPT7"
+195 http request GET https://registry.npmjs.org/babel-loader
+196 verbose request uri https://registry.npmjs.org/react
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 1:08:21 PM
+199 verbose etag "7P4BKHZCO1SEVI2ZYVZSYLWI"
+200 http request GET https://registry.npmjs.org/react
+201 verbose request uri https://registry.npmjs.org/webpack-dev-server
+202 verbose request no auth needed
+203 info attempt registry request try #1 at 1:08:21 PM
+204 verbose etag "9MUV4V7U9KGPPMNSXWSEGTRGV"
+205 http request GET https://registry.npmjs.org/webpack-dev-server
+206 verbose request uri https://registry.npmjs.org/webpack
+207 verbose request no auth needed
+208 info attempt registry request try #1 at 1:08:21 PM
+209 verbose etag "667DA537Z6EW7ND4IQR1MQOLE"
+210 http request GET https://registry.npmjs.org/webpack
+211 verbose request uri https://registry.npmjs.org/file-loader
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 1:08:21 PM
+214 verbose etag "1ORYPXS057QPS8T72LU5726KN"
+215 http request GET https://registry.npmjs.org/file-loader
+216 verbose request uri https://registry.npmjs.org/css-loader
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 1:08:21 PM
+219 verbose etag "CIZQHPMYJHH9ZSN9SXY5PUG01"
+220 http request GET https://registry.npmjs.org/css-loader
+221 verbose request uri https://registry.npmjs.org/style-loader
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 1:08:21 PM
+224 verbose etag "9A5AUJTHN0GG979R0J1HOKJK"
+225 http request GET https://registry.npmjs.org/style-loader
+226 http 400 https://registry.npmjs.org/babel
+227 verbose headers {}
+228 silly get cb [ 400, {} ]
+229 silly fetchPackageMetaData Error: 400 Bad Request
+229 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+229 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+229 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+229 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+229 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+229 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+229 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+229 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+229 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+229 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+229 silly fetchPackageMetaData  error for babel { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+230 http 400 https://registry.npmjs.org/babel-preset-es2015
+231 verbose headers {}
+232 silly get cb [ 400, {} ]
+233 silly fetchPackageMetaData Error: 400 Bad Request
+233 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+233 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+233 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+233 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+233 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+233 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+233 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+233 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+233 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+233 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+233 silly fetchPackageMetaData  error for babel-preset-es2015 { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+234 http 400 https://registry.npmjs.org/react-dom
+235 verbose headers {}
+236 silly get cb [ 400, {} ]
+237 silly fetchPackageMetaData Error: 400 Bad Request
+237 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+237 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+237 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+237 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+237 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+237 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+237 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+237 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+237 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+237 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+237 silly fetchPackageMetaData  error for react-dom { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+238 http 400 https://registry.npmjs.org/react-hot-loader
+239 verbose headers {}
+240 silly get cb [ 400, {} ]
+241 silly fetchPackageMetaData Error: 400 Bad Request
+241 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+241 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+241 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+241 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+241 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+241 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+241 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+241 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+241 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+241 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+241 silly fetchPackageMetaData  error for react-hot-loader { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+242 http 400 https://registry.npmjs.org/redux
+243 verbose headers {}
+244 silly get cb [ 400, {} ]
+245 silly fetchPackageMetaData Error: 400 Bad Request
+245 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+245 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+245 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+245 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+245 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+245 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+245 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+245 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+245 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+245 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+245 silly fetchPackageMetaData  error for redux { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+246 http 400 https://registry.npmjs.org/redux-thunk
+247 verbose headers {}
+248 silly get cb [ 400, {} ]
+249 silly fetchPackageMetaData Error: 400 Bad Request
+249 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+249 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+249 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+249 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+249 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+249 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+249 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+249 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+249 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+249 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+249 silly fetchPackageMetaData  error for redux-thunk { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+250 http 400 https://registry.npmjs.org/react
+251 verbose headers {}
+252 silly get cb [ 304, undefined ]
+253 verbose etag https://registry.npmjs.org/react from cache
+254 verbose get saving react to /home/samruda/.npm/registry.npmjs.org/react/.cache.json
+255 http 400 https://registry.npmjs.org/babel-loader
+256 verbose headers {}
+257 silly get cb [ 304, undefined ]
+258 verbose etag https://registry.npmjs.org/babel-loader from cache
+259 verbose get saving babel-loader to /home/samruda/.npm/registry.npmjs.org/babel-loader/.cache.json
+260 http 400 https://registry.npmjs.org/babel-core
+261 verbose headers {}
+262 silly get cb [ 304, undefined ]
+263 verbose etag https://registry.npmjs.org/babel-core from cache
+264 verbose get saving babel-core to /home/samruda/.npm/registry.npmjs.org/babel-core/.cache.json
+265 http 400 https://registry.npmjs.org/redux
+266 verbose headers {}
+267 silly get cb [ 400, {} ]
+268 silly fetchPackageMetaData Error: 400 Bad Request
+268 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+268 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+268 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+268 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+268 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+268 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+268 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+268 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+268 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+268 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+268 silly fetchPackageMetaData  error for redux { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+269 http 400 https://registry.npmjs.org/file-loader
+270 verbose headers {}
+271 silly get cb [ 304, undefined ]
+272 verbose etag https://registry.npmjs.org/file-loader from cache
+273 verbose get saving file-loader to /home/samruda/.npm/registry.npmjs.org/file-loader/.cache.json
+274 http 400 https://registry.npmjs.org/css-loader
+275 verbose headers {}
+276 silly get cb [ 304, undefined ]
+277 verbose etag https://registry.npmjs.org/css-loader from cache
+278 verbose get saving css-loader to /home/samruda/.npm/registry.npmjs.org/css-loader/.cache.json
+279 http 400 https://registry.npmjs.org/webpack
+280 verbose headers {}
+281 silly get cb [ 304, undefined ]
+282 verbose etag https://registry.npmjs.org/webpack from cache
+283 verbose get saving webpack to /home/samruda/.npm/registry.npmjs.org/webpack/.cache.json
+284 http 400 https://registry.npmjs.org/webpack-dev-server
+285 verbose headers {}
+286 silly get cb [ 304, undefined ]
+287 verbose etag https://registry.npmjs.org/webpack-dev-server from cache
+288 verbose get saving webpack-dev-server to /home/samruda/.npm/registry.npmjs.org/webpack-dev-server/.cache.json
+289 http 400 https://registry.npmjs.org/style-loader
+290 verbose headers {}
+291 silly get cb [ 304, undefined ]
+292 verbose etag https://registry.npmjs.org/style-loader from cache
+293 verbose get saving style-loader to /home/samruda/.npm/registry.npmjs.org/style-loader/.cache.json
+294 http 400 https://registry.npmjs.org/react-redux
+295 verbose headers {}
+296 silly get cb [ 400, {} ]
+297 silly fetchPackageMetaData Error: 400 Bad Request
+297 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+297 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+297 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+297 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+297 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+297 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+297 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+297 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+297 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+297 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+297 silly fetchPackageMetaData  error for react-redux { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+298 http 400 https://registry.npmjs.org/react-redux
+299 verbose headers {}
+300 silly get cb [ 400, {} ]
+301 silly fetchPackageMetaData Error: 400 Bad Request
+301 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+301 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+301 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+301 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+301 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+301 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+301 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+301 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+301 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+301 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+301 silly fetchPackageMetaData  error for react-redux { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+302 info attempt registry request try #2 at 1:08:31 PM
+303 http request GET https://registry.npmjs.org/babel-preset-react
+304 info attempt registry request try #2 at 1:08:31 PM
+305 http request GET https://registry.npmjs.org/babel-preset-stage-0
+306 info attempt registry request try #2 at 1:08:31 PM
+307 http request GET https://registry.npmjs.org/immutable
+308 http 400 https://registry.npmjs.org/babel-preset-stage-0
+309 verbose headers {}
+310 silly get cb [ 400, {} ]
+311 silly fetchPackageMetaData Error: 400 Bad Request
+311 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+311 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+311 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+311 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+311 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+311 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+311 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+311 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+311 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+311 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+311 silly fetchPackageMetaData  error for babel-preset-stage-0 { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+312 http 400 https://registry.npmjs.org/babel-preset-react
+313 verbose headers {}
+314 silly get cb [ 400, {} ]
+315 silly fetchPackageMetaData Error: 400 Bad Request
+315 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+315 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+315 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+315 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+315 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+315 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+315 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+315 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+315 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+315 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+315 silly fetchPackageMetaData  error for babel-preset-react { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+316 http 400 https://registry.npmjs.org/immutable
+317 verbose headers {}
+318 silly get cb [ 400, {} ]
+319 silly fetchPackageMetaData Error: 400 Bad Request
+319 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+319 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:215:9)
+319 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+319 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+319 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+319 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+319 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+319 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+319 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+319 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+319 silly fetchPackageMetaData  error for immutable { [Error: 400 Bad Request] statusCode: 400, code: 'E400' }
+320 silly rollbackFailedOptional Starting
+321 silly rollbackFailedOptional Finishing
+322 silly runTopLevelLifecycles Starting
+323 silly runTopLevelLifecycles Finishing
+324 silly install printInstalled
+325 verbose stack Error: ENOENT: no such file or directory, open '/home/samruda/github/react-trial/—save-dev'
+325 verbose stack     at Error (native)
+326 verbose cwd /home/samruda/github/react-trial
+327 error Linux 4.4.0-21-generic
+328 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "—save-dev" "babel" "babel-core" "babel-loader" "babel-preset-es2015" "babel-preset-react" "babel-preset-stage-0" "immutable" "react" "react-redux" "redux" "webpack" "webpack-dev-server" "css-loader" "file-loader" "react-dom" "react-hot-loader" "react-redux" "redux" "redux-thunk" "style-loader"
+329 error node v4.2.6
+330 error npm  v3.5.2
+331 error path /home/samruda/github/react-trial/—save-dev
+332 error code ENOENT
+333 error errno -2
+334 error syscall open
+335 error enoent ENOENT: no such file or directory, open '/home/samruda/github/react-trial/—save-dev'
+336 error enoent ENOENT: no such file or directory, open '/home/samruda/github/react-trial/—save-dev'
+336 error enoent This is most likely not a problem with npm itself
+336 error enoent and is related to npm not being able to find a file.
+337 verbose exit [ -2, true ]
